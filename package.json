@@ -6,6 +6,7 @@
   "scripts": {
     "test": "cypress run",
     "start:dev": "eleventy --watch --serve",
+    "start": "eleventy --serve", 
     "build": "eleventy", 
     "cypress:start": "cypress open"
   },
