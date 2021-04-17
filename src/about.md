@@ -1,6 +1,6 @@
 ---
 layout: base
-title: About The Company
+title: About Us
 tags: [main]
 ---
 # {{ title }}
