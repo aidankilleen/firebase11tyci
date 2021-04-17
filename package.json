@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
-    "start:dev": "eleventy --watch --serve", 
-    "build": "eleventy"
+    "test": "cypress run",
+    "start:dev": "eleventy --watch --serve",
+    "build": "eleventy", 
+    "cypress:start": "cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "cypress": "^7.1.0"
   }
 }

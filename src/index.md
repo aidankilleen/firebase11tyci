@@ -1,6 +1,7 @@
 ---
-title: Eleventy App On Firebase With Github Actions
+title: Home
 layout: 'base'
+tags: [main]
 ---
 # Eleventy App
 
